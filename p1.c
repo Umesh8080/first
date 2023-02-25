@@ -1,5 +1,9 @@
 #include<stdio.h>
 int main()
 {
-printf("hello");
+    int age=12;
+    int *ptr=&age;
+    printf("%d\n",*ptr);
+    printf("%d\n",ptr);
+    printf("%d",&age);
 }
